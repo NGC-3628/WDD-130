@@ -1,0 +1,66 @@
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: center;}
+
+#navegation{
+    text-align: left;
+}
+
+img.logo{
+    display: left;
+}
+
+nav a:hover {
+    color: white;
+    margin: 40px;
+    background-color: rgba(20,30,13, .7);
+    font-size: 1.5em;
+    text-align: left;
+}
+
+body {
+    background-color: #fcfbfb; 
+}
+
+header {
+    background-color:rgba(20,30,13, .7);
+}
+
+#background {
+    height: 725px;
+}
+
+body, h2.msg, p.msg {
+    background-color: #fcfbfb; 
+    color: white;
+}
+header,footer, .msg {
+    background-color:rgba(20,30,13, .7);
+}
+nav a:hover {
+    background-color: black;
+}
+
+nav a:hover {
+    background-color: black;
+    color: #d9c2a3;
+}    
+
+.icon {
+    width: 80px;
+}
+
+nav a, main {
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+}  
+
+#background{
+    background-color: #d9c2a3;
+}
+
+img.mountains{
+    display: block;
+}
