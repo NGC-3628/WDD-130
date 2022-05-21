@@ -1,0 +1,21 @@
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+
+}
+
+img.upper{
+    display: block;
+    margin: 0 auto;
+}
+
+
+img.desk, img.logo, img.person{
+    display: inline-block, center;
+    border-radius: 50%;
+    width: 300px;
+    padding: 10px solid;
+
+}
+
+
