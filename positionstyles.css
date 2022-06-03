@@ -149,7 +149,6 @@
 .content5 {
   /* This is the parent of the activity 5 boxes. */
   height: 400px;
-  float: ;
 }
 .red5 { 
   width: 100%; 
@@ -178,39 +177,48 @@
 .content6 {
   /* This is the parent of the activity 6 boxes. */
   display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-auto-columns: minmax(90px, auto);
+  grid-gap: 20px;
+  box-sizing: border-box;
+  justify-items:center;
 }
+
 .red6 {
   width: 400px; 
   height: 200px; 
   background-color: red; 
   position: absolute;
   z-index: -1;
+  grid-column: 1/3;
 } 
+
 .green6 {
   width: 200px; 
   height: 200px; 
   background-color: green; 
   position: relative;
-  margin-bottom: -200px;
   z-index: -1;
+  grid-column: 1/3;
 } 
+
 .yellow6 {
   width: 200px; 
   height: 400px; 
   background-color: gold;
   position: relative; 
-  margin-right: -300px;
-  margin-top: -200px;
+  grid-column: 1;
   z-index: 1;
 } 
+
 .blue6 {
   width: 400px; 
   height: 400px; 
   background-color: blue;
   position: relative; 
-  margin-left: 200px;
-  z-index: -1;
-  margin-top: -500px;
+  grid-column: 1;
+  grid-row: 2/4;
+  
 } 
 
 
