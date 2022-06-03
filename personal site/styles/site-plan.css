@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 @font-face {
-  font-family: "Patrick+Hand"|"Neucha";
+  font-family: "Patrick+Hand";
   src: url(https://fonts.google.com/specimen/Patrick+Hand?category=Display,Handwriting#standard-styles);
-  src: url(https://fonts.google.com/specimen/Neucha?category=Display,Handwriting&thickness=4&stylecount=1);
 }
 
 /* if you are using any Google fonts change the font names below to your fonts. 
