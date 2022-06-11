@@ -8,7 +8,12 @@
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
 
+img.page_1, .page_1_2, .page_2_1, .page_2_2{
+  height: 35%;
+  display: inline;
+  padding: auto;
 
+}
 
 
 :root {
