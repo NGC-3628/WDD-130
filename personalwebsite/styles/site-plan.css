@@ -1,20 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
-@font-face {
-  font-family: "Patrick+Hand";
-  src: url(https://fonts.google.com/specimen/Patrick+Hand?category=Display,Handwriting#standard-styles);
-}
+
 
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
-
-img.page_1, .page_1_2, .page_2_1, .page_2_2{
-  height: 35%;
-  display: inline;
-  padding: auto;
-
-}
-
 
 :root {
    /*change the values below to your colors from your palette */
@@ -42,17 +31,20 @@ img.page_1, .page_1_2, .page_2_1, .page_2_2{
 
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
-
+[alt="Logo image"] {
+  width: 100%;
+}
 body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 4em;
   font-size: 18px;
-  text-align: center;
 }
 img {
   display: block;
   margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
