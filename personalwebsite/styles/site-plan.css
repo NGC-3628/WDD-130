@@ -13,7 +13,7 @@ Fonts are separated by a | */
   --accent2-color: white;
 
   /*change the values below to your chosen font(s) */
-  --heading-font: "French Canon SC";
+  --heading-font: "Calibri";
   --paragraph-font: "Patrick Hand";
 
   /*these colors below should be chosen from among your palette colors above */
@@ -29,6 +29,9 @@ Fonts are separated by a | */
   --nav-hover-background-color: #396E94;
 }
 
+img.logo{
+  max-width: 50%;
+}
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 [alt="Logo image"] {
