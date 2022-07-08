@@ -49,9 +49,7 @@ img.home-logo{
     display: block;
     height: 150px;
     border-radius: 15%;
-    z-index: 10;
-
-    
+    z-index: 10;  
 }
 
 #home_logo_link {
