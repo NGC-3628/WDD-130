@@ -217,9 +217,80 @@ p:nth-of-type(6), .pre-testimony{
 }
 
 
+/* ######################                           specific items of products                        ########################## */
+
+#product_hero_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: .3fr 1fr .1fr;
+}
 
 
-/***************************  footer catholic******************************** btw, catholic term means "universal or applied upon everything"
+.product_hero-image{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.product_class{
+    border: 2px solid #a43312;
+    box-shadow: 5px 5px 10px black;
+    margin-left: 40px;
+}
+
+.product-hero-msg{
+    grid-column: 4/7;
+    grid-row: 2/3;
+    text-align: initial;
+    justify-content: center;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+
+
+.product-home-grid{
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 1.5fr;
+    grid-template-rows: 1.5fr .5fr;
+}
+
+.prdct-img{
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid #a43312;
+    box-shadow: 5px 5px 10px black;
+    transition: .5s;
+}
+
+.prdct-img:hover {
+    opacity: .9;
+    transform: scale(1.1);
+    display: flex;
+}
+
+.p-p{
+    text-align: center;
+    padding: 30px;
+    font-size: larger;
+    background-color: rgba(238, 140, 42, 0.389);
+}
+
+.p-h3{
+    text-align: center;
+    font-size: x-large;
+}
+
+
+/* ######################                           specific items of privacy                        ########################## */
+
+
+
+
+
+/***************************  footer catholic  ******************************** btw, catholic term means "universal or applied upon everything"
 */
 
 footer{
@@ -236,7 +307,7 @@ footer{
     
 }
 
-.home-plan{
+.home-plan, .product-plan{
     color: white;
     font-size: 18px;
     text-decoration: none;
