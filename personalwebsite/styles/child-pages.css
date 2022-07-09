@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 
-body{
+
+/*catholic term means "universal or applied upon everything" Hereafter I'll use this term.*/
+
+
+body{   /* catholic*/
     height: 100%;
     background: url(../images/background.jpg);
     background-position: center;
@@ -9,7 +13,7 @@ body{
     background-size: 100%;
 }
 
-.bgi-blur{
+.bgi-blur{ /* catholic*/
     backdrop-filter: blur(8px);
     position: fixed;
     height: 100%;
@@ -19,7 +23,7 @@ body{
 
 
 
-.bg-image{
+.bg-image{  /* catholic*/
     background: url(../images/background.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -30,13 +34,13 @@ body{
 }
 
 
-#content{
+#content{  /* catholic*/
     max-width: 1600px;
     margin: 0 auto;
     min-width: 1024px;
 }
 
-header{
+header{ /* catholic*/
     background-color:#a43312;
     opacity: .8;
     display: grid;
@@ -45,14 +49,14 @@ header{
     border-radius: 5px;
 }
 
-img.home-logo{
+img.home-logo, .product-logo{   
     display: block;
     height: 150px;
     border-radius: 15%;
     z-index: 10;  
 }
 
-#home_logo_link {
+#home_logo_link, #product_logo_link{ 
     justify-self: center;
     align-self: center;
 }
@@ -215,7 +219,7 @@ p:nth-of-type(6), .pre-testimony{
 
 
 
-/***************************  footer ********************************
+/***************************  footer catholic******************************** btw, catholic term means "universal or applied upon everything"
 */
 
 footer{
