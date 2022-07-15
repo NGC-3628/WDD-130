@@ -286,8 +286,86 @@ p:nth-of-type(6), .pre-testimony{
 
 /* ######################                           specific items of privacy                        ########################## */
 
+#privacy_hero{
+    display: grid;
+    grid-template-rows: 1fr 1fr 0.4fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
 
+.privacy-title{
+    grid-column: 2/5;
+    grid-row: 1/1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: x-large;
+    justify-content: center;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    color: aliceblue;
+    text-shadow: 1px 1px 1px black;
+    
 
+}
+
+.privacy-subtitle{
+    grid-column: 2/5;
+    grid-row: 2/2;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    background-color: rgba(238, 140, 42, 0.389);
+
+}
+
+.privacy-home-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: .3fr .1fr 1fr.5fr;
+}
+
+.main-title{
+    grid-column: 3/6;
+    grid-row: 1/1;
+    font-size: larger;
+}
+
+.privacy-subhero-picture{
+    grid-column: 2/3;
+    grid-row: 3/3;
+    border: 2px solid #a43312;
+    transition: 2s;
+}
+
+.privacy-subhero-picture:hover {
+    opacity: .9;
+    transform: scale(1.1);
+    display: flex;
+}
+
+.privacy-subhero-presentation{
+    grid-column: 4/9;
+    grid-row: 3/3;
+}
+
+.ppp{
+    color: black;
+    text-shadow: 1px 1px 1px white;
+    text-align: justify;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.759);
+    padding: 10px;
+    border: 1px solid;
+    font-size: larger;
+}
+
+.testimonies{
+    text-decoration: solid;
+    font-size: x-large;
+    color: #000000;
+}
 
 
 /***************************  footer catholic  ******************************** btw, catholic term means "universal or applied upon everything"
@@ -307,7 +385,7 @@ footer{
     
 }
 
-.home-plan, .product-plan{
+.home-plan, .product-plan, .privacy-plan{
     color: white;
     font-size: 18px;
     text-decoration: none;
