@@ -12,21 +12,22 @@
     <header class="header" id="inicio">
         <img src="images/hamburguesa.svg" alt="" class="hamburguer">
         <nav class="menu-navegacion">
-            <a href="#incio">Inicio</a>
+            <a href="#incio">Inicio</a>\
+            -
             <a href="#servicio">Servicio</a>
             <a href="#portafolio">Portafolio</a>
-            <a href="#experto">Expertos</a>
+            <a href="#expertos">Expertos</a>
             <a href="#contacto">Contacto</a>
         </nav>
         <div class="contenedor head">
-            <h1>Convertimos tus sueños en realidad</h1>
+            <h1 class="titulo">Convertimos tus sueños en realidad</h1>
             <p class="copy">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
         </div>
     </header>
     <main>
-        <section class="service contenedor" id="servicio">
+        <section class="contenedor" id="servicio">
             <h2 class="subtitulo">servicio</h2>
-            <div class="servicio">
+            <div class="contenedor-servicio">
                 <img src="images/online presentation.svg" alt="" class="">
                 <div class="checklist-servicio">
                     <div class="service">
@@ -60,21 +61,50 @@
                 </div>
             </div>
         </section>
-        <!--<section class="imagen-light">
+        <section class="imagen-light">
             <img src="images/close.svg" alt="" class="close">
             <img src="" alt="" class="agregar-imagen">
-        </section>-->
+        </section> 
         <section class="contenedor" id="expertos">
             <h2 class="subtitulo">expertos en:</h2>
             <section class="experts">
                 <div class="cont-expert">
-                    <img src="images/" alt="">
+                    <img src="images/pie_chart.svg" alt="">
+                    <h3 class="n-expert">Analytics</h3>
+                </div>
+                <div class="cont-expert">
+                    <img src="images/search_engine.svg" alt="">
+                    <h3 class="n-expert">SEO</h3>
+                </div>
+                <div class="cont-expert">
+                    <img src="images/security.svg" alt="">
+                    <h3 class="n-expert">Security</h3>
                 </div>
             </section>
         </section>
     </main>
-    <i class='bx bxl-facebook'></i>
-    <i class='bx bxl-twitter' ></i>
-    <i class='bx bxl-instagram'></i>
+    <footer id="contacto">
+        <div class="contenedor footer-content">
+            <div class="contact-us">
+                <h2 class="brand">Alex SG VS SIGN</h2>
+                <p>Somos expertos en la creacion de tus sueños</p>
+            </div>
+            <div class="socal-media">
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-facebook'></i> 
+                </a>
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-twitter' ></i> 
+                </a>
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-instagram'></i>
+                </a>
+            </div>
+        </div>
+    </footer> 
+    
+    
+    <script src="js/menu.js"></script>
+    <script src="js/lightbox.js"></script>
 </body>
 </html>
